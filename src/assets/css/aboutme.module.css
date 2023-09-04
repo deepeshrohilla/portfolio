@@ -1,0 +1,108 @@
+.aboutMeContainer {
+    padding: 70px;
+    background-color: var(--white);
+}
+
+.aboutMeContainer h2 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 400;
+    margin: 0 0 70px;
+}
+
+.aboutMeContainer ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.aboutMeContainer ul li {
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.aboutMeContainer ul li:last-child {
+    margin-bottom: 0;
+}
+
+.aboutMeContainer ul li strong {
+    width: 40%;
+}
+
+.aboutMeContainer ul li span {
+    flex: 1;
+    word-break: break-all;
+    color: var(--paragraph);
+}
+
+.aboutMeContainer ul li span a {
+    text-decoration: none;
+    color: var(--paragraph);
+    transition: 0.25s ease;
+
+}
+
+.aboutMeContainer ul li a:hover {
+    color: var(--primary);
+}
+
+.aboutMeContainer h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin: 30px 0;
+}
+
+.aboutMeContainer p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    line-height: 1.7;
+    color: var(--paragraph);
+}
+
+.socialMediaLinks {
+    display: flex;
+    align-items: center;
+}
+
+.socialMediaLinks a {
+    margin-right: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--primary);
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid var(--primary);
+    transition: 0.25s ease;
+}
+
+.socialMediaLinks a:hover{
+    color: var(--white);
+    background-color: var(--primary);
+}
+
+
+
+
+
+/* Mobile */
+@media screen and (max-width: 650px) {
+    .aboutMeContainer {
+        padding: 70px 20px;
+    }
+
+    .aboutMeContainer h2 {
+        font-size: 30px;
+        margin: 0 0 40px;
+    }
+
+    .aboutMeContainer h3 {
+        font-size: 24px;
+    }
+}

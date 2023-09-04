@@ -39,11 +39,12 @@
 
 .heroContainer h1 {
     font-family: "Kaushan Script", cursive;
-    font-size: 50px;
+    font-size: 60px;
     line-height: 1.3;
     transform: rotate(-5deg);
     position: relative;
     margin: 0 0 30px;
+    font-weight: 300;
 }
 
 .heroContainer h1::before {
@@ -67,12 +68,12 @@
 }
 .heroContainer h3{
     margin: 0 0 30px;
-    font-size: 16px;
+    font-size: 20px;
+    font-weight: 400;
 }
 
 .socialMediaLinks {
     z-index: 2;
-    margin: 0 0 30px;
     display: flex;
     align-items: center;
     justify-content: center;
